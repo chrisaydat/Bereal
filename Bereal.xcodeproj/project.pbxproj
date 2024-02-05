@@ -14,6 +14,9 @@
 		3B9B98562B6FE0600021588A /* BerealTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3B9B98552B6FE0600021588A /* BerealTests.swift */; };
 		3B9B98602B6FE0610021588A /* BerealUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3B9B985F2B6FE0610021588A /* BerealUITests.swift */; };
 		3B9B98622B6FE0610021588A /* BerealUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3B9B98612B6FE0610021588A /* BerealUITestsLaunchTests.swift */; };
+		3B9B98712B6FEB740021588A /* FeedView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3B9B98702B6FEB740021588A /* FeedView.swift */; };
+		3B9B98732B6FEBE80021588A /* TestStack.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3B9B98722B6FEBE80021588A /* TestStack.swift */; };
+		3B9B98752B7023480021588A /* FeedCellView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3B9B98742B7023480021588A /* FeedCellView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -45,6 +48,9 @@
 		3B9B985B2B6FE0610021588A /* BerealUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = BerealUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		3B9B985F2B6FE0610021588A /* BerealUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BerealUITests.swift; sourceTree = "<group>"; };
 		3B9B98612B6FE0610021588A /* BerealUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BerealUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		3B9B98702B6FEB740021588A /* FeedView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FeedView.swift; sourceTree = "<group>"; };
+		3B9B98722B6FEBE80021588A /* TestStack.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TestStack.swift; sourceTree = "<group>"; };
+		3B9B98742B7023480021588A /* FeedCellView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FeedCellView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -100,6 +106,9 @@
 				3B9B98472B6FE0600021588A /* Assets.xcassets */,
 				3B9B98492B6FE0600021588A /* Bereal.entitlements */,
 				3B9B984A2B6FE0600021588A /* Preview Content */,
+				3B9B98702B6FEB740021588A /* FeedView.swift */,
+				3B9B98742B7023480021588A /* FeedCellView.swift */,
+				3B9B98722B6FEBE80021588A /* TestStack.swift */,
 			);
 			path = Bereal;
 			sourceTree = "<group>";
@@ -259,8 +268,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				3B9B98732B6FEBE80021588A /* TestStack.swift in Sources */,
 				3B9B98462B6FE05F0021588A /* ContentView.swift in Sources */,
+				3B9B98712B6FEB740021588A /* FeedView.swift in Sources */,
 				3B9B98442B6FE05F0021588A /* BerealApp.swift in Sources */,
+				3B9B98752B7023480021588A /* FeedCellView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -424,6 +436,7 @@
 				ENABLE_HARDENED_RUNTIME = YES;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_CFBundleDisplayName = BeReal.;
 				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphoneos*]" = YES;
 				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphonesimulator*]" = YES;
 				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphoneos*]" = YES;
@@ -462,6 +475,7 @@
 				ENABLE_HARDENED_RUNTIME = YES;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_CFBundleDisplayName = BeReal.;
 				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphoneos*]" = YES;
 				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphonesimulator*]" = YES;
 				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphoneos*]" = YES;

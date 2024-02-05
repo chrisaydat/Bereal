@@ -9,7 +9,26 @@ import SwiftUI
 
 struct TestStack: View {
     var body: some View {
-        Text(/*@START_MENU_TOKEN@*/"Hello, World!"/*@END_MENU_TOKEN@*/)
+        ZStack {
+                   // Background color
+                   Color.gray.edgesIgnoringSafeArea(.all)
+                   
+                   // Card View
+                   VStack {
+                       Image(systemName: "swift")
+                           .resizable()
+                           .aspectRatio(contentMode: .fit)
+                           .frame(width: 100, height: 100)
+                           .padding()
+                           .background(Color.white)
+                           .cornerRadius(10)
+                       
+                       Text("SwiftUI Card")
+                           .font(.headline)
+                           .foregroundColor(.white)
+                   }
+                   .padding()
+               }
     }
 }
 
